@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+}
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
+}
+
+.d-flex {
+  display: flex;
+
+  @media screen and (max-width: 1399px) {
+    flex-direction: column;
+  }
+}
+
+option {
+  width: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1399px) {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .d-hide {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .m-hide {
+    display: none;
+  }
+}

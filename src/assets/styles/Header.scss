@@ -1,0 +1,86 @@
+.header {
+  position: relative;
+  background: #1E252B;
+
+  &-inner {
+    padding: 17px 15px;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-part {
+      display: flex;
+      align-items: center;
+
+      .logo-link {
+        margin: 0;
+      }
+
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-left: 32px;
+        font-family: Neue Haas Unica Pro;
+      }
+    }
+
+    .right-part {
+      a {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+        color: #F9F9F9;
+        margin-left: 48px;
+
+        &:hover {
+          color: #F7A501;
+        }
+      }
+    }
+
+    &.mobile-navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid white;
+
+      .mobile-navbar-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .m-right-part {
+        a {
+          &:first-child {
+            margin-right: 8px;
+          }
+        }
+      }
+    }    
+  }
+
+  .mobile-menu {
+    position: absolute;
+    width: calc(100% - 30px);
+    background: #231F20;
+
+    padding: 0 15px;
+
+    a {
+      padding: 15px 0;
+      font-family: Eurostile;
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

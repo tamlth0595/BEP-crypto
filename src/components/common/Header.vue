@@ -24,7 +24,7 @@
           <img alt="Vue logo" src="@/assets/images/logo.svg" />
         </router-link>
         <div @click="showMobileMenu = !showMobileMenu">
-          <img alt="Vue logo" src="@/assets/images/menu.svg" />
+          <img alt="menu" src="@/assets/images/menu.svg" />
         </div>
       </div>
     </div>

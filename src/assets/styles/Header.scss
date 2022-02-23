@@ -3,9 +3,13 @@
   background: #1E252B;
 
   &-inner {
-    padding: 17px 15px;
+    padding: 56px 15px;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 1399px) {
+      padding: 48px 24px;
+    }
 
     .left-part {
       display: flex;
@@ -23,13 +27,13 @@
         color: #FFFFFF;
         text-decoration: none;
         margin-left: 32px;
-        font-family: Neue Haas Unica Pro;
+        font-family: Neue Haas Unica Pro, serif;
       }
     }
 
     .right-part {
       a {
-        font-family: 'Inter';
+        font-family: 'Inter', serif;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
@@ -47,7 +51,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      border-bottom: 1px solid white;
 
       .mobile-navbar-inner {
         display: flex;
@@ -63,7 +66,7 @@
           }
         }
       }
-    }    
+    }
   }
 
   .mobile-menu {
@@ -75,9 +78,9 @@
 
     a {
       padding: 15px 0;
-      font-family: Eurostile;
+      font-family: 'Inter', serif;
       text-decoration: none;
-      color: #FFFFFF;
+      color: #f9f9f9;
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;

@@ -11,7 +11,25 @@ html {
 
 @font-face {
   font-family: 'Inter', sans-serif;
-  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+}
+
+a {
+  text-decoration: none;
+  color: #f9f9f9;
+
+  &:hover {
+    color: #f7a501;
+  }
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
 }
 
 .d-flex {
@@ -22,6 +40,11 @@ html {
   }
 }
 
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 option {
   width: 200px;
   overflow: hidden;
@@ -30,7 +53,7 @@ option {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: 0 auto;
 
   @media screen and (max-width: 1399px) {
